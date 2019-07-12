@@ -14,9 +14,9 @@
 			}
 
 			function displayMessage(string){
-				if(string.length==="")
+				if(string.length===0)
 					return 'Please enter data first';
-				
+
 				if(string.split(',').length > 3)
 					return 'Too much!';
 				else
